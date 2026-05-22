@@ -1,0 +1,152 @@
+/* Fonts & Base Styles */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffb6c1;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: 'Pacifico', cursive;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #e60073;
+}
+
+/* Hero Section */
+.hero {
+  background-image:  url('https://cdn.prod.website-files.com/66508d27edec728ef74e5482/66549a6c2202d857838be937_King%27s%20pastry%20-%20Home%20Header.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  outline-color: black;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+/* Featured Recipes */
+.recipes-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffe4e1;
+}
+
+.recipe-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+}
+
+.recipe-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px; /* adds space between image and text box */
+}
+
+.text-box {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+}
+/* Recipe Categories */
+.categories ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 20px;
+}
+
+.categories li {
+  text-align: center;
+}
+
+.categories img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffb6c1;
+  font-size: 14px;
+}
+
+.footer .socials a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+}
+
+.section-title1 {
+  text-align: center;
+  margin: 40px 0 20px;
+  background-color: #f8cbd2;
+}
+
+.b1 {background-color: #fce7ea;}
